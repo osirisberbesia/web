@@ -1,0 +1,51 @@
+section
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+h1
+{
+    font-size: 3em;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 2em;
+    margin: 5px;
+}
+
+@media (max-width: 500px)
+{
+    h1 
+    {
+        font-size: 2em;
+        color: violet;
+        padding: 5px;
+    }
+
+    .container
+    {
+        background-color: rgba(137, 43, 226, 0.089);
+        width: 90%;
+        height: 300px;
+        border-radius: 25px;
+        border: 2px black solid;
+        display: flex;
+    }
+
+    .nav-bar
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: wrap;
+        background-color: rgb(236, 202, 195);
+        border-radius: 25px;
+    }
+    a 
+    {
+        color: black;
+    }
+}

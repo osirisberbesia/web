@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Práctica</title>
+</head>
+<body>
+    <h1>Carrera de registro</h1>
+    <form action="#">
+        <div>
+            <label for="name">Primer nombre</label>
+            <input type="text" id="name" required>
+            <label for="lastname"> Apellido</label>
+            <input type="text" id="lastname">
+        </div>
+        <span>Selecciona una carrera:</span>
+        <br>
+        <input type="radio" name="race" id="option1"> <label for="race">Carrera 50mts </label>
+        <br>
+        <input type="radio" name="race" id="option2"> <label for="race">Carrera 100mts</label>
+        <br>
+        <input type="radio" name="race" id="option3"> <label for="race">Valientes 1Km</label>
+        <div>
+            <label for="mail">Ingrese correo</label>
+            <input type="email" name="mail">
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass">
+        </div>
+        <div>
+            <label for="age">Selecciona Grupo de Edad</label>
+            <select name="age" id="age">
+                <option value="less18">Menor 18</option>
+                <option value="adult">18-75</option>
+                <option value="old">75-120</option>
+            </select>
+        </div>
+        <button>Enviar</button>
+    </form>
+
+    <hr>
+    <h1>Busqueda en Google</h1>
+        <form action="https://www.google.com/search">
+            <p>
+                <label for="search">Busqueda</label>
+                <input type="text" id="search" name="q">
+            </p>    
+            <button>
+                ¡Googlear!
+            </button>
+        </form>
+    
+</body>
+</html>

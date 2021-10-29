@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Gluten&family=Handlee&family=Lato:ital,wght@1,400&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+
+}
+
+img
+{
+    margin: 15px;
+    border-radius: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(31, 1, 24);
+}
+
+body
+{
+    background-color: rgba(241, 241, 241, 0.322);
+    
+}
+
+.tierno {
+  font-family: "Gluten", cursive;
+  font-size: 30px;
+}
+
+.bonito {
+  font-family: "Handlee", cursive;
+  font-size: 30px;
+}
+
+.cursiva {
+  font-family: "Bad Script", cursive;
+  font-size: 30px;
+  margin: 3px;
+}
+
+.main {
+    margin: 40px auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 1300px;
+}
+
+.container {
+    width: -webkit-fill-available;
+    max-width: 1050px;
+    border-radius: 5px;
+    padding: 0 2em 15px 2em;
+    margin: 0 0 20px 0;
+}
+
+
+
+.h_amarillo
+{
+  background-color:#f7fcae;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.h_negro
+{
+  background-color:#080800;
+  color: white;
+  padding: 2px;
+}
+
+.h_blanco
+{
+  background-color:#ffffff;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.h_verde
+{
+  background-color:#90d487;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.h_azul
+{
+  background-color:#87d4cd;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.h_lila
+{
+  background-color:#a487d4a9;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.h_naranja
+{
+  background-color:#f8d09ba9;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+
+.externo
+{
+  color:rgb(153, 113, 151) ;
+  margin: 2px;
+}
+
+h1 {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  margin: 15px;
+  font-size: 40px;
+  font-family: "Handlee", cursive;
+
+}
+
+.morado {
+  background-color: #cfd0db;
+  border-top: rgb(68, 6, 119) 2px solid;
+}
+.rosa {
+  background-color: #fde8f4b6;
+  border-top: rgb(202, 21, 112) 2px solid;
+}
+.celeste {
+  background-color: #d8f5f393;
+  border-top: rgb(21, 105, 202) 2px solid;
+}
+
+
+
+.fecha {
+  border-radius: 5px;
+  background-color: rgb(247, 228, 204);
+  width: fit-content;
+  border-top: solid 2px#ce7f08;
+  padding: 5px;
+  position: absolute;
+  margin: 6px;
+
+}
+
+.menu_izquierda {
+  width: 20%;
+  max-width: 300px;
+  min-width: 150px;
+  padding: 0.8em 2em;
+  top: 0;
+  position: sticky;
+  height: 85vh;
+  border-radius: 5px;
+  background-color: rgb(243, 233, 247);
+  border-top: rgb(138, 61, 108) 2px solid;
+}
+
+.header_h1
+{
+  top: 0;
+  position: sticky;
+}
+
+
+
+.indice
+{
+    font-size: 20px;
+    font-weight: 300;
+    border-bottom: rgb(138, 61, 108) 1px solid;
+}
